@@ -1,0 +1,21 @@
+---
+
+- name: MacOSX homebrew setup
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  sudo: no
+  tags:
+    - homebrew
+  roles:
+    - homebrew
+    
+- name: MacOSX homebrew-cask setup
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  sudo: no
+  tags:
+    - homebrew-cask
+  roles:
+    - homebrew-cask

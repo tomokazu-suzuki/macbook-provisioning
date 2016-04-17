@@ -1,0 +1,44 @@
+---
+
+homebrew_repositories:
+  - homebrew/php
+  
+homebrew_packages:
+  - readline
+  - openssl
+  - { name: openssl, state: linked, install_options: force }
+  - ansible
+  - git
+  - git-flow
+  - vim
+  - pngquant
+  - wget
+  - nkf
+  - php70
+  - php70-apcu
+  
+homebrew_cask_repositories:
+  - caskroom/versions
+  
+homebrew_cask_packages:
+  - google-chrome
+  - google-japanese-ime
+  - karabiner
+  - phpstorm
+  - java7
+  - visual-studio-code
+  - android-studio
+  - slack
+  - vagrant
+  - virtualbox
+  - sourcetree
+  - cyberduck
+  - sequel-pro
+  - xmind
+  - vlc
+  - evernote
+  - skype
+  - gimp
+  - pencil
+
+
