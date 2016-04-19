@@ -31,7 +31,7 @@ homebrew_cask_packages:
   - slack
   - vagrant
   - virtualbox
-  - sourcetree
+  # - sourcetree # 2.0.5.6以上はOSX-10.9.5で動作しないのでコメントアウト
   - cyberduck
   - sequel-pro
   - xmind
