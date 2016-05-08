@@ -6,11 +6,11 @@ homebrew_repositories:
 homebrew_packages:
   - readline
   - openssl
-  - { name: openssl, state: linked, install_options: force }
+  - { name: openssl, state: linked, options: force }
   - ansible
   - git
   - git-flow
-  - vim
+  - { name: vim, options: with-lua, override-system-vim }
   - pngquant
   - wget
   - nkf
@@ -40,5 +40,6 @@ homebrew_cask_packages:
   - skype
   - gimp
   - pencil
+  - mysqlworkbench
 
 
