@@ -24,6 +24,7 @@ homebrew_cask_packages:
   - google-chrome
   - google-japanese-ime
   - karabiner
+  - seil
   - phpstorm
   - java7
   - visual-studio-code
