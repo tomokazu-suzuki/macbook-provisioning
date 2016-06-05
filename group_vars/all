@@ -42,5 +42,6 @@ homebrew_cask_packages:
   - gimp
   - pencil
   - mysqlworkbench
+  - android-file-transfer
 
 
