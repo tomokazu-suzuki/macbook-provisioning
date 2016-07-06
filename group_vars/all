@@ -16,6 +16,7 @@ homebrew_packages:
   - nkf
   - php70
   - php70-apcu
+  - composer
   
 homebrew_cask_repositories:
   - caskroom/versions
@@ -43,5 +44,4 @@ homebrew_cask_packages:
   - pencil
   - mysqlworkbench
   - android-file-transfer
-
 
