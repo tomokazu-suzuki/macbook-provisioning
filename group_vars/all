@@ -10,6 +10,7 @@ homebrew_packages:
   - ansible
   - git
   - git-flow
+  - vim  
   - { name: vim, options: with-lua, override-system-vim }
   - pngquant
   - wget
@@ -33,7 +34,7 @@ homebrew_cask_packages:
   - slack
   - vagrant
   - virtualbox
-  # - sourcetree # 2.0.5.6以上はOSX-10.9.5で動作しないのでコメントアウト
+  - sourcetree
   - cyberduck
   - sequel-pro
   - xmind
