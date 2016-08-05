@@ -10,12 +10,14 @@ homebrew_packages:
   - ansible
   - git
   - git-flow
+  - vim  
   - { name: vim, options: with-lua, override-system-vim }
   - pngquant
   - wget
   - nkf
   - php70
   - php70-apcu
+  - composer
   
 homebrew_cask_repositories:
   - caskroom/versions
@@ -32,7 +34,7 @@ homebrew_cask_packages:
   - slack
   - vagrant
   - virtualbox
-  # - sourcetree # 2.0.5.6以上はOSX-10.9.5で動作しないのでコメントアウト
+  - sourcetree
   - cyberduck
   - sequel-pro
   - xmind
@@ -42,5 +44,5 @@ homebrew_cask_packages:
   - gimp
   - pencil
   - mysqlworkbench
-
+  - android-file-transfer
 

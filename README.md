@@ -48,6 +48,12 @@ alias vi='vim'
 $ source ~/.bash_profile
 ~~~
 
+### Yosemiteにアップグレードした場合は下記を実行します
+
+~~~
+brew update
+~~~
+
 ## 使い方
 
 1. provisioningディレクトリを作成します
