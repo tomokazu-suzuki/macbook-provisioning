@@ -48,7 +48,7 @@ alias vi='vim'
 $ source ~/.bash_profile
 ~~~
 
-### Yosemiteにアップグレードした場合は下記を実行します
+### elcapitanにアップグレードした場合は下記を実行します
 
 ~~~
 brew update
