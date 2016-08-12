@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<root>
+	<appdef>
+		<appname>SLACK</appname>
+		<equal>com.tinyspeck.slackmacgap</equal>
+	</appdef>
+	<item>
+		<name>Shift+Enter to send message in slack app</name>
+		<identifier>{{ private_xml.identifer }}</identifier>
+		<uielementrole_only>AXTextArea</uielementrole_only>
+		<only>SLACK</only>
+		<autogen>
+			__KeyToKey__
+			KeyCode::RETURN,MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT | ModifierFlag::NONE,
+			KeyCode::RETURN
+		</autogen>
+		<autogen>
+			__KeyToKey__
+			KeyCode::RETURN,
+			KeyCode::RETURN,ModifierFlag::SHIFT_L
+		</autogen>
+	</item>
+</root>
