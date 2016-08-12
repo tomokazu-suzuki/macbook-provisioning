@@ -70,3 +70,7 @@ mkdir ~/provisioning && cd $_
 ~~~
 ansible-playbook playbook.yml -i hosts
 ~~~
+
+## karabinerのprivate.xmlの設定が反映されない場合
+
+1. 「Change key」タブの「Reload XML」ボタンを押して下さい

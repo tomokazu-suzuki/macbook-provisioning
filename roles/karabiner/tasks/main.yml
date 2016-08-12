@@ -1,0 +1,12 @@
+---
+
+- name: Copy private xml
+  template:
+    src: private.xml.j2
+    dest: "~/Library/Application\ Support/Karabiner/private.xml"
+    mode: 0644
+  register: copy_result
+
+- name: Import Karabiner settings
+  script: ../templates/karabiner-import.sh.j2
+  when: copy_result | changed
