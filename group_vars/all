@@ -45,4 +45,5 @@ homebrew_cask_packages:
   - pencil
   - mysqlworkbench
   - android-file-transfer
+  - netbeans-php
 
