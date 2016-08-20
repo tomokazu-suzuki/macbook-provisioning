@@ -71,6 +71,8 @@ mkdir ~/provisioning && cd $_
 ansible-playbook playbook.yml -i hosts
 ~~~
 
-## karabinerのprivate.xmlの設定が反映されない場合
+## ~~karabinerのprivate.xmlの設定が反映されない場合~~
 
-1. 「Change key」タブの「Reload XML」ボタンを押して下さい
+1. ~~「Change key」タブの「Reload XML」ボタンを押して下さい~~
+
+* private.xmlにenterで改行する設定をしましたが、googleIMEの文字変換で不具合が発生するので、playbook.ymlでkarabinerのroleをコメントアウトしています。
