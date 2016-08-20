@@ -19,13 +19,3 @@
     - homebrew-cask
   roles:
     - homebrew-cask
-
-- name: Setup Karabiner
-  hosts: localhost
-  connection: local
-  gather_facts: false
-  sudo: no
-  tags:
-    - karabiner
-  roles:
-    - karabiner
