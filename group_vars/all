@@ -40,7 +40,6 @@ homebrew_cask_packages:
   - sequel-pro
   - xmind
   - vlc
-  - evernote
   - skype
   - gimp
   - pencil
