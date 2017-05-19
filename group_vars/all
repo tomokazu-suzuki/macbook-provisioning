@@ -28,7 +28,6 @@ homebrew_cask_packages:
   - google-japanese-ime
   - karabiner
   - seil
-  - phpstorm
   - java7
   - visual-studio-code
   - android-studio
@@ -42,6 +41,4 @@ homebrew_cask_packages:
   - vlc
   - skype
   - gimp
-  - pencil
-  - mysqlworkbench
   - android-file-transfer
