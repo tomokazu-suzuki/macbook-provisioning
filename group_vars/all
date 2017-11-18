@@ -15,8 +15,8 @@ homebrew_packages:
   - pngquant
   - wget
   - nkf
-  - php70
-  - php70-apcu
+  - php71
+  - php71-apcu
   - composer
   - go
   
