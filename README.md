@@ -58,15 +58,15 @@ brew update
 
 1. provisioningディレクトリを作成します
 
-~~~
-mkdir ~/provisioning && cd $_
-~~~
+    ~~~
+    mkdir ~/provisioning && cd $_
+    ~~~
 
 1. このリポジトリをcloneします
 1. /group_vars/all を編集して、必要なソフトウェアを管理します
 
 1. 下記を実行します
 
-~~~
-ansible-playbook playbook.yml -i hosts
-~~~
+    ~~~
+    ansible-playbook playbook.yml -i hosts
+    ~~~
