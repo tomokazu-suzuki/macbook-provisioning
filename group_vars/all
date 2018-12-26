@@ -26,8 +26,6 @@ homebrew_cask_repositories:
 homebrew_cask_packages:
   - google-chrome
   - google-japanese-ime
-  - karabiner
-  - seil
   - java7
   - visual-studio-code
   - android-studio
